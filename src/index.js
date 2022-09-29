@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './components/header'
 import Apropos from './pages/Apropos'
 import Home from './pages/Home'
+import Footer from './components/footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path="/apropos">
         <Apropos />
       </Route>
+      <Footer />
     </Router>
   </React.StrictMode>
 )
