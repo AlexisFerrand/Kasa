@@ -2,10 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import './styles/index/index.css'
 import Header from './components/header'
 import Apropos from './pages/Apropos'
 import Home from './pages/Home'
 import Footer from './components/footer'
+import Banniere from './components/banniere'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -18,6 +20,7 @@ root.render(
       <Route path="/apropos">
         <Apropos />
       </Route>
+      <Banniere />
       <Footer />
     </Router>
   </React.StrictMode>

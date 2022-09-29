@@ -8,7 +8,7 @@ const FooterPart = styled.header`
   justify-content: space-around;
   background-color: black;
   color: white;
-  margin: auto;
+  margin-bottom: 0;
   height: 209px;
 `
 const Img = styled.img`

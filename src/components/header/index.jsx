@@ -7,9 +7,7 @@ import colors from '../../colors'
 const ParamHeader = styled.header`
   display: flex;
   justify-content: space-between;
-  margin-top: 3%;
-  margin-left: 5%;
-  margin-right: 5%;
+
   align-items: center;
 `
 const StyledLink = styled(Link)`
