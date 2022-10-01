@@ -3,10 +3,10 @@
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(95, 95, 95, 0.3)), to(rgba(95, 95, 95, 0.3))), url(C:\Users\evald\OneDrive\Bureau\kasa\src\assets\IMG.png);
   background: linear-gradient(rgba(95, 95, 95, 0.3), rgba(95, 95, 95, 0.3)), url(C:\Users\evald\OneDrive\Bureau\kasa\src\assets\IMG.png);
   margin: auto;
-  margin-top: 4%;
+  margin-top: 3%;
   height: 220px;
   margin-bottom: 5%;
-  border-radius: 20px;
+  border-radius: 25px;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,7 +21,7 @@
 
 .banniere img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .banniere h2 {

@@ -1,8 +1,6 @@
+import BanniereApropos from '../../components/banniere-apropos'
+
 function Apropos() {
-  return (
-    <div>
-      <h2>Seigneur j'ai besoin de toi</h2>
-    </div>
-  )
+  return <BanniereApropos />
 }
 export default Apropos

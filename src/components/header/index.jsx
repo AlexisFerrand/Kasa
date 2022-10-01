@@ -17,8 +17,9 @@ const StyledLink = styled(Link)`
   font-size: 18px;
   color: ${colors.primary};
 `
-
-const ParamLink = styled.div``
+const NavParams = styled.nav`
+  padding-top: 35px;
+`
 
 function Header() {
   return (
@@ -26,10 +27,10 @@ function Header() {
       <div>
         <img src={logo} alt="Logo kasa" />
       </div>
-      <nav>
+      <NavParams>
         <StyledLink to="/">Accueil</StyledLink>
         <StyledLink to="/a-propos">A propos</StyledLink>
-      </nav>
+      </NavParams>
     </ParamHeader>
   )
 }

@@ -1,6 +1,3 @@
-import banniere from '../../assets/IMG.png'
-// eslint-disable-next-line no-unused-vars
-import banniereOverlay from '../../assets/Background.png'
 import '../../styles/banniere/index.css'
 
 function Banniere() {
