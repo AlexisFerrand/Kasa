@@ -7,8 +7,9 @@ import colors from '../../colors'
 const ParamHeader = styled.header`
   display: flex;
   justify-content: space-between;
-
   align-items: center;
+  height: 60px;
+  padding-top: 50px;
 `
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -25,10 +26,10 @@ function Header() {
       <div>
         <img src={logo} alt="Logo kasa" />
       </div>
-      <ParamLink>
+      <nav>
         <StyledLink to="/">Accueil</StyledLink>
         <StyledLink to="/a-propos">A propos</StyledLink>
-      </ParamLink>
+      </nav>
     </ParamHeader>
   )
 }

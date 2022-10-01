@@ -1,0 +1,30 @@
+.error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff6060;
+}
+
+.error h2 {
+  font-size: 200px;
+  margin: 0;
+}
+
+.error p {
+  font-size: 27px;
+}
+
+.error a {
+  font-size: 19px;
+  color: #ff6060;
+}
+/*# sourceMappingURL=index.css.map */

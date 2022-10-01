@@ -1,0 +1,18 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #ff6060;
+  h2 {
+    font-size: 200px;
+    margin: 0;
+  }
+  p {
+    font-size: 27px;
+  }
+  a {
+    font-size: 19px;
+    color: #ff6060;
+  }
+}

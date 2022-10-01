@@ -1,18 +1,23 @@
 import logo from '../../assets/LOGO-blanc.svg'
 import styled from 'styled-components'
 
-const FooterPart = styled.header`
+const FooterPart = styled.footer`
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   background-color: black;
   color: white;
   margin-bottom: 0;
-  height: 209px;
+  height: 19%;
+  margin-left: -7%;
 `
 const Img = styled.img`
   height: 70px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 `
 
 function Footer() {

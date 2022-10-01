@@ -7,20 +7,24 @@ import Header from './components/header'
 import Apropos from './pages/Apropos'
 import Home from './pages/Home'
 import Footer from './components/footer'
-import Banniere from './components/banniere'
+import Error from './components/error'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Route path="/">
-        <Home />
-      </Route>
-      <Route path="/apropos">
-        <Apropos />
-      </Route>
-      <Banniere />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/a-propos">
+          <Apropos />
+        </Route>
+        <Route>
+          <Error />
+        </Route>
+      </Switch>
       <Footer />
     </Router>
   </React.StrictMode>
