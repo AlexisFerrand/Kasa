@@ -2,7 +2,7 @@ import logo from '../../assets/LOGO-blanc.svg'
 import styled from 'styled-components'
 
 const FooterPart = styled.footer`
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;

@@ -1,7 +1,7 @@
 .banniere {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(95, 95, 95, 0.3)), to(rgba(95, 95, 95, 0.3))), url(C:\Users\evald\OneDrive\Bureau\kasa\src\assets\IMG.png);
-  background: linear-gradient(rgba(95, 95, 95, 0.3), rgba(95, 95, 95, 0.3)), url(C:\Users\evald\OneDrive\Bureau\kasa\src\assets\IMG.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(95, 95, 95, 0.3)), to(rgba(95, 95, 95, 0.3))), url(../../assets/IMG.png);
+  background: linear-gradient(rgba(95, 95, 95, 0.3), rgba(95, 95, 95, 0.3)), url(../../assets/IMG.png);
   margin: auto;
   margin-top: 3%;
   height: 150px;

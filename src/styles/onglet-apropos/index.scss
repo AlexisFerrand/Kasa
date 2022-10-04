@@ -18,24 +18,43 @@
   padding-right: 3%;
   border-radius: 5px;
   height: 37px;
-
-  img {
-    height: 15px;
-  }
+  cursor: pointer;
 }
-
+.DivTitre::after {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f077';
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 22px;
+  font-weight: 1000;
+  transition: transform 0.2s ease-in-out;
+}
+.DivTitre.active::after {
+  transform: rotate(180deg);
+}
 .DivText {
-  padding: 3%;
+  max-height: 0;
+  overflow: hidden;
   background: #f7f7f7;
   border-radius: 5px;
-  margin-bottom: 3%;
+  transition: max-height 0.2s ease-out;
   p {
     color: #ff6060;
     margin: auto;
-
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 142.6%;
   }
+}
+.DivTextContent {
+  padding: 3%;
+}
+.DivOnglet {
+  margin-bottom: 3%;
+}
+
+.DivTitre.active + .DivText {
+  max-height: 500px;
 }
