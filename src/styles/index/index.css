@@ -1,12 +1,18 @@
-body {
+html,
+body #fullheight {
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
   margin-left: 7%;
   margin-right: 7%;
 }
 
+main {
+  min-height: 100%;
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
-  height: 90%;
 }
 /*# sourceMappingURL=index.css.map */

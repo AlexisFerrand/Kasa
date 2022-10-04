@@ -4,6 +4,8 @@ import styled from 'styled-components'
 const FooterPart = styled.footer`
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,7 +14,6 @@ const FooterPart = styled.footer`
   color: white;
   margin-bottom: 0;
   height: 19%;
-  margin-left: -7%;
 `
 const Img = styled.img`
   height: 70px;

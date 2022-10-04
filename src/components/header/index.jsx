@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import logo from '../../assets/LOGO.svg'
 import colors from '../../colors'
-
+import '../../styles/header/index.css'
 const ParamHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
   padding-top: 50px;
 `
 const StyledLink = styled(Link)`
@@ -17,9 +17,7 @@ const StyledLink = styled(Link)`
   font-size: 18px;
   color: ${colors.primary};
 `
-const NavParams = styled.nav`
-  padding-top: 35px;
-`
+const NavParams = styled.nav``
 
 function Header() {
   return (
