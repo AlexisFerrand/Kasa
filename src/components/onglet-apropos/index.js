@@ -1,7 +1,5 @@
 import '../../styles/onglet-apropos/index.css'
 
-import { useState } from 'react'
-
 const DivTitres = document.querySelectorAll('.DivTitre')
 DivTitres.forEach((DivTitre) => {
   DivTitre.addEventListener('click', (event) => {
