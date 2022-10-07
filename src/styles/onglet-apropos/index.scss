@@ -1,6 +1,9 @@
 .SectionOnlget {
   margin: auto;
   width: 79%;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
   h3 {
     color: white;
     font-weight: 500;
@@ -53,6 +56,9 @@
 }
 .DivOnglet {
   margin-bottom: 3%;
+  @media screen and (max-width: 480px) {
+    margin-top: 6%;
+  }
 }
 
 .DivTitre.active + .DivText {
