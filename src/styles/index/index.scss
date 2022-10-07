@@ -4,6 +4,10 @@ body #fullheight {
   font-family: 'Montserrat', sans-serif;
   margin-left: 7%;
   margin-right: 7%;
+  @media screen and (max-width: 992px) {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
 main {
   min-height: 100%;

@@ -10,12 +10,19 @@ const ParamHeader = styled.header`
   align-items: center;
   height: 50px;
   padding-top: 50px;
+  @media screen and (max-width: 480px) {
+    padding-top: 25px;
+  }
 `
 const StyledLink = styled(Link)`
   text-decoration: none;
   padding-left: 30px;
-  font-size: 18px;
+  font-size: 22px;
   color: ${colors.primary};
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+    padding-left: 18px;
+  }
 `
 const NavParams = styled.nav``
 
@@ -23,7 +30,9 @@ function Header() {
   return (
     <ParamHeader>
       <div>
-        <img src={logo} alt="Logo kasa" />
+        <a href="/">
+          <img src={logo} alt="Logo kasa" />
+        </a>
       </div>
       <NavParams>
         <StyledLink to="/">Accueil</StyledLink>

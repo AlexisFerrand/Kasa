@@ -6,6 +6,14 @@ body #fullheight {
   margin-right: 7%;
 }
 
+@media screen and (max-width: 992px) {
+  html,
+  body #fullheight {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
 main {
   min-height: 100%;
   position: relative;

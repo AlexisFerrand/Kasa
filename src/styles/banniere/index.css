@@ -1,7 +1,8 @@
 .banniere {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(95, 95, 95, 0.3)), to(rgba(95, 95, 95, 0.3))), url(../../assets/IMG.png);
-  background: linear-gradient(rgba(95, 95, 95, 0.3), rgba(95, 95, 95, 0.3)), url(../../assets/IMG.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../../assets/IMG.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/IMG.png);
+  background-position: center;
   margin: auto;
   margin-top: 3%;
   height: 180px;
@@ -19,6 +20,19 @@
           align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .banniere {
+    height: 150px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banniere {
+    margin-bottom: 0%;
+  }
+}
+
 .banniere img {
   width: 100%;
   border-radius: 25px;
@@ -26,7 +40,21 @@
 
 .banniere h2 {
   color: white;
-  font-weight: 400;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .banniere h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banniere h2 {
+    font-size: 28px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
