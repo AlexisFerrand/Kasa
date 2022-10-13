@@ -1,0 +1,15 @@
+.host {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  p {
+    margin-right: 30px;
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  img {
+    height: 80px;
+    border-radius: 50%;
+  }
+}

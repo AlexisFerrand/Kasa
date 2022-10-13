@@ -34,32 +34,10 @@
   cursor: pointer;
 }
 
-.DivTitre::after {
-  font-family: 'Font Awesome 5 Free';
-  content: '\f077';
-  display: inline-block;
-  vertical-align: middle;
-  color: white;
-  font-size: 22px;
-  font-weight: 1000;
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-}
-
-.DivTitre.active::after {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
 .DivText {
-  max-height: 0;
   overflow: hidden;
   background: #f7f7f7;
   border-radius: 5px;
-  -webkit-transition: max-height 0.2s ease-out;
-  transition: max-height 0.2s ease-out;
 }
 
 .DivText p {
@@ -83,9 +61,5 @@
   .DivOnglet {
     margin-top: 6%;
   }
-}
-
-.DivTitre.active + .DivText {
-  max-height: 500px;
 }
 /*# sourceMappingURL=index.css.map */

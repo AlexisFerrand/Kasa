@@ -1,0 +1,89 @@
+.singleproduct__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+h1 {
+  color: #ff6060;
+  font-size: 30px;
+}
+
+.singleproduct__text {
+  color: #ff6060;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.singleproduct_equipment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+.collapsedivs {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+}
+
+.collapse {
+  width: 80%;
+}
+
+.barre {
+  width: 50%;
+}
+
+.title {
+  background-color: #ff6060;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 10px;
+}
+
+.title h2 {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.description {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  color: #ff6060;
+  border-radius: 10px;
+}
+
+.description p {
+  padding: 25px;
+  font-size: 18px;
+}
+
+.description li {
+  list-style-type: none;
+}
+
+.fontarrowfichelogement {
+  padding-right: 25px;
+  right: 18%;
+  color: white;
+  height: 26px;
+}
+/*# sourceMappingURL=index.css.map */

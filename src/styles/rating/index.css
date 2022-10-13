@@ -1,0 +1,16 @@
+.stars {
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.greystar,
+.redstar {
+  padding-left: 8px;
+  height: 30px;
+}
+/*# sourceMappingURL=index.css.map */

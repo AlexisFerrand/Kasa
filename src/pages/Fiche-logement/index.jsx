@@ -2,34 +2,55 @@ import { useParams } from 'react-router-dom'
 import Annonces from '../../data.json'
 import Bannierelogement from '../../components/banniere-logement'
 import { useState, useEffect } from 'react'
+import '../../styles/fiche-logement/index.css'
 
+import Slider from '../../components/slider'
+import Tags from '../../components/tags'
+import Host from '../../components/host'
+import Rating from '../../components/rating'
+import Collapse from '../../components/collapse'
 
-function Fichelogement() {
+const Fichelogement = () => {
   const id_logement = useParams()
-  console.log(id_logement.id)
-  const [data, setData] = useState()
-  const [isDataLoading, setSataLoading] = useState(false)
+  console.log(id_logement)
+  const product = Annonces.find((product) => product.id === id_logement.id)
+  const { title, location, rating, host, equipments, description, pictures } =
+    product
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    setSataLoading(true)
-    const annoncechoisi = Annonces.find((house) => house.id === id_logement.id)
-    setData(annoncechoisi)
-    console.log(data)
-    setSataLoading(false)
-  }, [data, id_logement.id])
-
-  // eslint-disable-next-line no-lone-blocks
   return (
-    <section>
-      {data.pictures.map((housing, index) => (
-        <Bannierelogement
-          pictures={housing}
-          alt={`${housing} + ${index}`}
-          key={`${housing} + ${index}`}
+    <div className="singleproduct">
+      <Slider slides={pictures} />
+      <div className="singleproduct__content">
+        <div className="singleproduct__informations">
+          <h1 className="singleproduct__title">{title}</h1>
+          <p className="singleproduct__text">{location}</p>
+          <div className="singleproduct_equipment">
+            {product.tags.map((tag, index) => (
+              <Tags getTags={tag} key={index} />
+            ))}
+          </div>
+        </div>
+        <div className="singleproduct_hostinfo+rating">
+          <Host host={host} />
+          <Rating rating={rating} />
+        </div>
+      </div>
+      <div className="collapsedivs">
+        <Collapse title="Description" description={description} />
+        <Collapse
+          title="Equipements"
+          description={
+            <ul className="a">
+              {equipments.map((equi, index) => (
+                <li className="collapse" key={index}>
+                  {equi}
+                </li>
+              ))}
+            </ul>
+          }
         />
-      ))}
-    </section>
+      </div>
+    </div>
   )
 }
 

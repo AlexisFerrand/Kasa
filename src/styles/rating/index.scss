@@ -1,0 +1,11 @@
+.stars {
+  margin-top: 8%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.greystar,
+.redstar {
+  padding-left: 8px;
+  height: 30px;
+}
