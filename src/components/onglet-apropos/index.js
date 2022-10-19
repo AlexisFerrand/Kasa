@@ -1,5 +1,5 @@
 import '../../styles/onglet-apropos/index.css'
-import OngletDiv from '../ongletdiv'
+import OngletDiv from '../Ongletdiv'
 
 function Onglet() {
   return (

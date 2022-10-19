@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './styles/index/index.css'
-import Header from './components/header'
+import Header from './components/Header'
 import Apropos from './pages/Apropos'
 import Home from './pages/Home'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import Error from './components/error'
 import Fichelogement from './pages/Fiche-logement'
 

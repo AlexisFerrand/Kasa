@@ -1,5 +1,5 @@
-import BanniereApropos from '../../components/banniere-apropos'
-import Onglet from '../../components/onglet-apropos'
+import BanniereApropos from '../../components/Banniere-apropos'
+import Onglet from '../../components/Onglet-apropos'
 
 function Apropos() {
   return (

@@ -7,4 +7,5 @@ function Banniere() {
     </div>
   )
 }
+
 export default Banniere

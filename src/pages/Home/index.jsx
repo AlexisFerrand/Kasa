@@ -1,12 +1,12 @@
-import Banniere from '../../components/banniere'
-import Card from '../../components/card'
+import Card from '../../components/Card'
+import Banniere from '../../components/Banniere'
 
 function Home() {
   return (
-    <div>
+    <>
       <Banniere />
       <Card />
-    </div>
+    </>
   )
 }
 
