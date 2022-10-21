@@ -1,9 +1,7 @@
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  margin-left: -9%;
+  margin-right: -9%;
+  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,13 +14,24 @@
           align-items: center;
   background-color: black;
   color: white;
-  margin-bottom: 0;
   height: 19%;
+}
+
+@media screen and (max-width: 968px) {
+  .footer {
+    height: 15%;
+  }
 }
 
 .footer Img {
   height: 70px;
   padding-top: 50px;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 968px) {
+  .footer Img {
+    height: 60px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

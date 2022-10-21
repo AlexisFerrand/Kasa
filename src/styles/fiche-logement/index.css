@@ -7,9 +7,24 @@
           justify-content: space-between;
 }
 
+@media screen and (max-width: 750px) {
+  .singleproduct__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 h1 {
   color: #ff6060;
   font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 23px;
+  }
 }
 
 .singleproduct__text {
@@ -18,11 +33,20 @@ h1 {
   font-weight: 500;
 }
 
+@media screen and (max-width: 480px) {
+  .singleproduct__text {
+    font-size: 18px;
+  }
+}
+
 .singleproduct_equipment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 5%;
+  gap: 5%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .collapsedivs {
@@ -33,12 +57,24 @@ h1 {
   gap: 5%;
 }
 
-.collapse {
-  width: 80%;
+@media screen and (max-width: 600px) {
+  .collapsedivs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .barre {
   width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .barre {
+    width: 100%;
+    margin-bottom: 3%;
+  }
 }
 
 .title {
@@ -58,10 +94,22 @@ h1 {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .title {
+    border-radius: 5px;
+  }
+}
+
 .title h2 {
   font-weight: 500;
   font-size: 20px;
   padding-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .title h2 {
+    font-size: 18px;
+  }
 }
 
 .description {
@@ -85,5 +133,25 @@ h1 {
   right: 18%;
   color: white;
   height: 26px;
+}
+
+@media screen and (max-width: 750px) {
+  .singleproduct_hostinforating {
+    position: relative;
+    margin-top: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */

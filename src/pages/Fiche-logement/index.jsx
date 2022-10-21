@@ -1,7 +1,5 @@
 import { useParams } from 'react-router-dom'
 import Annonces from '../../data.json'
-import Bannierelogement from '../../components/Banniere-logement'
-import { useState, useEffect } from 'react'
 import '../../styles/fiche-logement/index.css'
 
 import Slider from '../../components/Slider'
@@ -30,7 +28,7 @@ const Fichelogement = () => {
             ))}
           </div>
         </div>
-        <div className="singleproduct_hostinfo+rating">
+        <div className="singleproduct_hostinforating">
           <Host host={host} />
           <Rating rating={rating} />
         </div>

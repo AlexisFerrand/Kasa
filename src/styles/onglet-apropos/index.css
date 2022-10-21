@@ -16,6 +16,12 @@
   line-height: 34.22px;
 }
 
+@media screen and (max-width: 480px) {
+  .SectionOnlget h3 {
+    font-size: 20px;
+  }
+}
+
 .DivTitre {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +53,12 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 142.6%;
+}
+
+@media screen and (max-width: 480px) {
+  .DivText p {
+    font-size: 17px;
+  }
 }
 
 .DivTextContent {

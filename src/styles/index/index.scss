@@ -1,9 +1,9 @@
 html,
-body #fullheight {
-  height: 100%;
+body {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 4%;
+  margin-right: 4%;
+
   @media screen and (max-width: 992px) {
     margin-left: 3%;
     margin-right: 3%;
@@ -11,7 +11,13 @@ body #fullheight {
 }
 main {
   min-height: 100%;
-  position: relative;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 * {

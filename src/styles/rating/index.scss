@@ -2,10 +2,19 @@
   margin-top: 8%;
   display: flex;
   justify-content: flex-end;
+  @media screen and (max-width: 750px) {
+    margin-top: 0;
+  }
 }
 
 .greystar,
 .redstar {
   padding-left: 8px;
   height: 30px;
+  @media screen and (max-width: 600px) {
+    height: 25px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 20px;
+  }
 }

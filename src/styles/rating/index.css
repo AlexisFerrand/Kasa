@@ -8,9 +8,29 @@
           justify-content: flex-end;
 }
 
+@media screen and (max-width: 750px) {
+  .stars {
+    margin-top: 0;
+  }
+}
+
 .greystar,
 .redstar {
   padding-left: 8px;
   height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .greystar,
+  .redstar {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .greystar,
+  .redstar {
+    height: 20px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

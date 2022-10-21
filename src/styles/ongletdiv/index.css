@@ -1,7 +1,13 @@
 .fontarrowapropos {
   position: absolute;
-  right: 18%;
+  right: 19%;
   color: white;
   height: 26px;
+}
+
+@media screen and (max-width: 480px) {
+  .fontarrowapropos {
+    right: 15%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

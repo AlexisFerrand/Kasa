@@ -1,13 +1,26 @@
 .tags {
-  margin-right: 20px;
   background-color: #ff6060;
   color: white;
   padding: 3px 20px;
   border-radius: 10px;
   font-weight: 500;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .tags {
+    padding: 3px 10px;
+  }
 }
 
 .tags p {
   margin-right: 0;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .tags p {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
