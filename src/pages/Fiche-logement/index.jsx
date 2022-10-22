@@ -7,11 +7,15 @@ import Tags from '../../components/Tags'
 import Host from '../../components/Host'
 import Rating from '../../components/Rating'
 import Collapse from '../../components/Collapse'
+import Error from '../../components/error'
 
 const Fichelogement = () => {
   const id_logement = useParams()
   console.log(id_logement)
   const product = Annonces.find((product) => product.id === id_logement.id)
+  if (product === undefined) {
+    return <Error />
+  }
   const { title, location, rating, host, equipments, description, pictures } =
     product
 
@@ -38,13 +42,13 @@ const Fichelogement = () => {
         <Collapse
           title="Equipements"
           description={
-            <ul className="a">
+            <span className="a">
               {equipments.map((equi, index) => (
                 <li className="collapse" key={index}>
                   {equi}
                 </li>
               ))}
-            </ul>
+            </span>
           }
         />
       </div>
