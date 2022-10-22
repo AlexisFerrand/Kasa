@@ -36,7 +36,7 @@ const Slider = ({ slides }) => {
           </div>
         )
       })}
-      {/* get button if there are more thant one picture */}
+      {}
       {length > 1 ? (
         <>
           <div className="slider__previous" onClick={prevSlide}>

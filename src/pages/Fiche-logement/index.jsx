@@ -11,7 +11,6 @@ import Error from '../../components/error'
 
 const Fichelogement = () => {
   const id_logement = useParams()
-  console.log(id_logement)
   const product = Annonces.find((product) => product.id === id_logement.id)
   if (product === undefined) {
     return <Error />
