@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-// eslint-disable-next-line no-unused-vars
 import styled from 'styled-components'
 import logo from '../../assets/LOGO.svg'
 import colors from '../../colors'
