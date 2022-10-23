@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types'
-
 function Bannierelogement({ pictures, alt, key }) {
   return (
     <div className="Divbannierelogement">

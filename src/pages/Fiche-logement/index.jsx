@@ -2,11 +2,11 @@ import { useParams } from 'react-router-dom'
 import Annonces from '../../data.json'
 import '../../styles/fiche-logement/index.css'
 
-import Slider from '../../components/Slider'
-import Tags from '../../components/Tags'
-import Host from '../../components/Host'
-import Rating from '../../components/Rating'
-import Collapse from '../../components/Collapse'
+import Slider from '../../components/slider'
+import Tags from '../../components/tags'
+import Host from '../../components/host'
+import Rating from '../../components/rating'
+import Collapse from '../../components/collapse'
 import Error from '../../components/error'
 
 const Fichelogement = () => {

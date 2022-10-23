@@ -2,12 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './styles/index/index.css'
-import Header from './components/Header'
-import Apropos from './pages/Apropos'
-import Home from './pages/Home'
-import Footer from './components/Footer'
+import Header from './components/header'
+import Apropos from './pages/apropos'
+import Home from './pages/home'
+import Footer from './components/footer'
 import Error from './components/error'
-import Fichelogement from './pages/Fiche-logement'
+import Fichelogement from './pages/fiche-logement'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(

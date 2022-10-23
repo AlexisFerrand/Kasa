@@ -1,5 +1,5 @@
-import Card from '../../components/Card'
-import Banniere from '../../components/Banniere'
+import Card from '../../components/card'
+import Banniere from '../../components/banniere'
 
 function Home() {
   return (
